@@ -1,0 +1,19 @@
+	Dsa-2 JS March 
+      Array Based Problems
+
+Array Based Problems are solved Based on 
+1. General Implimentation ("Normal For Loops")
+2.Two Pointers 
+3.Sorting
+4.Searching
+5.Prefix Sum
+6.Bit Manipulation
+
+
+
+2.Two Pointers Problems
+		// Solved On Practrice Folder 
+	--Sprial Model
+	--
+
+		

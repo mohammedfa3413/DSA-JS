@@ -1,0 +1,124 @@
+				DSA JS Notes 
+
+				 Session-1
+
+
+
+Revision 
+
+
+
+1.Variable:(assigning the values or initializing)
+	eg: a=10,b=20;
+
+
+
+2.Data Type:(what kind of data to be stored)
+	
+	eg:boolean,number,undefined,null,object,string,symbol
+
+	string:it is not a primitive data type..it containes a char 
+
+
+
+	primitive data type (boolean,number,undefined,null)
+		number:it stores all kinds of numbers (int,double,decimal....)
+		boolean: stores true or false 
+		undefined:unintentionally displayes if the vales are not defined 
+		null:it is done intentionally 
+
+
+3.Diff B/W data type and data structure 
+
+	data type:what ur going to store
+	data structure:how ur going to store 
+
+	
+
+4.Constrains
+	it says the range for the input 
+	eg:1<=10,b<=20
+
+
+
+
+5.Debugging
+	solving errors
+
+
+
+6.Conditionals:
+		if(){
+		}else{
+		}
+
+
+	nested elseif ladder:(More complex conditions are given then this is better to use)
+		if(){
+		}elseif{
+		}
+
+
+	Swithch Cse:(if the conditions are not complicated then this contional statement can be used)
+		switch(){
+		case1:	
+			break;
+		case2:
+			break;
+		.
+		.
+		.
+		default:Invalid
+		{
+
+
+//Problems are solved in Vs Code based on normal js practice
+	1.FindQadrant(2d plane graph)
+
+
+
+7.Loops
+	1.for loop
+	for(initialization;condition;incrementation/decrementation){}
+
+	2.while loop (it is know as entry controlled loop)
+	syantax:
+		first initialization (eg:let = 0;)
+		while(){
+		   Print
+		   incrementation||decrementation
+		}
+
+	3.do while loop (it is an exit controlled loop) note:this runs a code atleast one time 
+	syntax:
+		do{
+		   print 
+		   incrementation||decrementation
+		  }while(); 
+
+
+8.Continue && Break Statement
+	
+	 Break:it helps to come out of the loop
+	continue:it helps to skip the current itteration
+
+
+
+
+				DSA
+
+
+1.Time Complexity  && Space Complexity
+
+		Time Complexity:(no of times a statement is exicuted with respect to input)
+			checks exicution time 
+			depends on hardware 
+			
+	
+
+	Take Home Assignments Done In Vs Code 
+
+	1.N natural numbers (Done)
+	2.leap year	(Done)
+
+	

@@ -1,0 +1,50 @@
+		DSA-JS Session-2
+
+
+
+note: When ever we have to go through all the elements in a string or array problems big O(n) can be used
+
+
+	Space Complexity(ram)
+primitive data type takes 1unit of space
+
+
+note:in js array have same data type 
+
+note : it has 4 variations 
+	1.O(1)  primitive data type
+	2.O(N)	arrays and strings
+	3.O(N^2)
+	4.Hidden space Complexity in recurssion 
+
+
+1.Arrays (1D)
+
+	note :Always stick to index[0] to index[n-1]    basic:splic(),slice(),push(),pop(),shift(),unshift(), reverse() ,   sort()
+	Basic Operation of Array
+	1.Rotation
+	2.Reverse
+	3.Sorting
+
+note: sort():Sortes in Lexicographical order which is dict way
+
+
+		Solved One Problem In vs Code 
+		1.Find Elements
+
+
+2.Matrix (2 Dimentional)
+		square:all rows and columns are equale
+		rectangular:all rows and columns are not equale
+
+
+Traversal in matrix
+	row by row 
+	column by column
+	primary diagnol 
+	secondary diagnol
+
+
+	problem on matrix (2D Array)
+	1.Magic Square 
+
