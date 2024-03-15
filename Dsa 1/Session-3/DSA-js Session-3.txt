@@ -1,0 +1,89 @@
+		DSA-js Session-3
+
+
+note : our code should run in 1sec if not the code is not optimal 
+note : the code should run <=10^8
+
+
+session3-Agenda 
+	Strings
+	Binary search
+
+
+
+
+			1.Strings  (" ")
+
+Space Complexity : o(n);
+note : this also follows the indexing method
+note : 2 types of String 1.Mutable and 2. Immutable 
+	Mutable : it can be modified
+	Immutable : it can't be modified
+note:All the Strings are Immutable in Java Script
+
+
+
+Common Opertaions...length ,slice(start idx, end-1 idx),
+indexOf(searchElement, fromIndex),
+note:Sort() this can't be done in string
+
+
+			2.String Terminology
+
+Substring:in this it starts from the starting index and ends at the last before index takes all the char of the string
+let str = "Hello World";
+str.slice(2,7);
+console.log(str);
+//output = "llo w"
+
+Subsequence:based on us like...(h l o w r d)we can pic any char but in a sequence way
+
+
+			3.Prefix && Suffix
+Prefix:Starting index is a prefix
+"Hello"
+Prefix = H
+Prefix = He
+Prefix = Hel
+Prefix = Hell
+Prefix = Hello
+
+Suffix:Strting from the last index 
+Hello
+Suffix=o
+Suffix=ol
+Suffix=oll
+Suffix=olle
+Suffix=olleH
+
+
+note :By default Java Script Reads Numbers also as a string 
+
+
+				Problems
+		1.Capitalize
+
+Note :ASCII Values (imp to remember)
+
+		UpperCase: Starts From A=65
+		LowerCase: Starts From a=97
+		numbers : Starts from 0=48
+
+note: Convert LowerCase to UpperCase (just need to subtract 32)
+		97-32 = 65
+		a - 32 = A
+
+to convert : 3 Steps are needed 
+	1.get the ascii value
+	2.do the subtraction
+	3.convert it ascii back to char
+
+
+note:charCodeAt(index) it returns the ASCII values of the lowerCase string
+note:String.fromCharCode(num1, num2, /* …, */ numN) convets from ascii values to the String
+
+
+			4.Binary Search
+note:pre-requisite: input Should be sorted 
+two pointers are used left index[] and the right index[]   l+r/2   || mid+1
+time complexity O(logn)
