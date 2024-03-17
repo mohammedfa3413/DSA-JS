@@ -87,3 +87,7 @@ note:String.fromCharCode(num1, num2, /* …, */ numN) convets from ascii values 
 note:pre-requisite: input Should be sorted 
 two pointers are used left index[] and the right index[]   l+r/2   || mid+1
 time complexity O(logn)
+
+
+
+problems solved in vs code 

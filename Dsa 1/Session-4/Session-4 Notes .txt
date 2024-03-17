@@ -1,0 +1,78 @@
+				Session-4 Notes 
+
+		Agenda 
+	Debugging intro
+	Map
+	Set
+	Hashmap/Hashset
+	
+	
+
+1.Debugging:Fixing Errors 
+	Types OF errors 
+	      compile time error 
+	      runtime error 
+	      Logical Error 
+
+
+	
+
+compile time error 
+	Syntax error
+
+
+runtime error 
+	Calling a function which doesn't Exist	
+
+Logical Error 
+	Not getting a proper output 
+
+
+2.Map DS
+	it stores 2 things key and value (note:value is dependent on keys) (note :Key should be unique)
+	key and value can be anything(str,num,bool,undefined.....etc)
+
+	CRUD Operations on map (note: All the operations in crud have timecomplexity is O(1))
+		CREAT 
+		READ
+		UPDATE/INSERT
+		DELETE
+
+
+	methods 
+		set(key,value) creat or insert / update
+		get(key) read 
+		has(key) checks weather key is present in map or not 
+		delete(key) it will delete a key and value 
+		clear() it resets the map 
+
+***imp****   when we have to use map data structure
+		[occurences,frequency,count];
+
+	implementing a map [const variableName = new Map();]
+note:two extra loops are there in java script 
+	for of loop  -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of#examples
+	for in loop
+
+			problem solved 
+	1.MostFrequency
+
+
+3.Set Data Structure : it says how many unique and distinct elements are there
+(it only stores a key)(key has to be unique)
+note:if the repeated key is occured it just ignores
+
+***imp****   when we have to use set data structure
+			[unique,distinct,duplicate]
+
+		methods
+			add(value)
+			has(value)
+			delete(value)
+			clear(value)
+
+
+4.Hashmap && Hashset
+
+		takeHome 
+			1.DistinctNumberBasic
