@@ -8,6 +8,6 @@ function DistinctNumberBasic(n,nums){
         set.add(nums[i]);
 
     }
-    return set.size();
+    return set.size;
 
 }
