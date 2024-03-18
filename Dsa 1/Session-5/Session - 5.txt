@@ -24,3 +24,7 @@ Agenda
 
 
 note:first base case should be made
+
+		Problems on Recursion
+	1.Natural munbers
+	2.Fibonaci Series
