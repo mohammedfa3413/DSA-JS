@@ -1,1 +1,26 @@
 			Session - 5
+
+
+Agenda 
+	Recursion
+
+
+
+
+
+
+
+
+1.Recursion:
+	two main keywords (smaller instance) (same Problem)
+
+		base Case/terminating /stopping : when there is a ans for a question without asking a question
+
+		stack : FIFO
+		cALL sTACK : only functions are executed in stack
+
+
+	recursive function:A function which calls itsef
+
+
+note:first base case should be made
