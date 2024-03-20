@@ -6,4 +6,12 @@ Agenda
 
 
 
-Math concept
+1.Math concept
+	1.PrimeNumber
+	2.GCD
+
+
+2.Debugging 
+
+   1.adding console statement
+   2.comment out pices of code  
